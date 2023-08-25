@@ -65,7 +65,7 @@ dependencies {
     }
 
     // Spring Doc
-    implementation("org.springdoc:springodc-openapi-starter-webflux-ui:2.2.0")
+    implementation("org.springdoc:springdoc-openapi-starter-webflux-ui:2.2.0")
 }
 
 tasks.withType<KotlinCompile> {
