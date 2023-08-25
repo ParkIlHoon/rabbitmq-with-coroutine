@@ -31,6 +31,7 @@ dependencies {
     // Kotlin
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
+    implementation("io.github.oshai:kotlin-logging-jvm:5.0.1")
 
     // Springboot
     implementation("org.springframework.boot:spring-boot-starter-actuator")
