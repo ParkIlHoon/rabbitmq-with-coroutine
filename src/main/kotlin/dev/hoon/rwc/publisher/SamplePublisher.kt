@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service
 class SamplePublisher(
     private val rabbitTemplate: RabbitTemplate
 ) {
-    suspend fun pulish(message: String) {
+    suspend fun pulish(message: Any) {
         rabbitTemplate.convertAndSend(RabbitMqConstants.EXCHANGE_DIRECT, RabbitMqConstants.SAMPLE_ROUTING_KEY, message)
     }
 }
